@@ -1,0 +1,1 @@
+This slight variation of the pattern from headfirst design pattern. 

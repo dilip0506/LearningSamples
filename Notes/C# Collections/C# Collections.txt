@@ -1,0 +1,42 @@
+looping through a list with for loop uses the index value to reach a particular value
+looping through a foreach loop starting from first reaches to every element thourgh it memory address is enumaration
+
+concurrent collection to handle multi threading problem
+
+immutable collections are not in .net framework but they are separate nuget packages
+
+why cannot we extend arrays: arrays use memory block one after the other so we need to declare array size before. may be other variable use memory block next to array so we cannot extend arrays. if we want to extend the array internally whole array is copied to new array to new memory address.
+
+in foreach loop we can modify the array value of reference types we can change their properties.
+
+Array.Reverse(arrayname) change the actual 
+Linq reverse method arrayname.Reverse returns a new IEnumerable object we need to store it in new varibale
+
+Arrays are refrence types
+
+IComparable is interface used to compare complex types see ex: Collectiontype in dotnet
+will sorting complex type we can use IComparable object to sort complex types on our choice
+look array methods FindIndex
+There are linq methods and array methods. keep in mind
+if we use LINQ methods on array it creates performance overhead
+
+
+I array(are implemeted by .net engine) type checking is CLR internal processing where as in collections(implemeted by manageded code they are class writen in c#)generics net extra class for type checking.
+
+to access an element of we use (address of array + i*s) where s is size of element.
+reference type array stores each address of value in stack
+
+we have to use refrence to change the value of any refernce types stored in array
+
+Object--> Array--->string[]
+Object--> Array---> object[]
+there is inheritance relationship between array[] and object[] as everything is inherted by object class they separeate type by array class "see image 3344" but array Covarince can occur
+Array Covarince: Object[] array can point to string[] but not safe because we can save any date in object array
+
+try sort and IComparable to sort methods with your own compare logic
+Array.IndexOf(Array,'element')
+Array.FindIndex()//searches from first
+Array.FindLastIndex(Array,'element')//searches from last
+Array.FindAll()
+
+Collections Interfaces

@@ -1,0 +1,1 @@
+﻿Example using spefication patter for validations
