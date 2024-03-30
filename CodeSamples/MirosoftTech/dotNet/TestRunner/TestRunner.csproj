@@ -8,7 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Attribute\CustomAttribute.csproj" />
+    <ProjectReference Include="..\Customexception\Customexception.csproj" />
+    <ProjectReference Include="..\gcdismememory\MemoryManagment.csproj" />
     <ProjectReference Include="..\MultiThreading\MultiThreading.csproj" />
+    <ProjectReference Include="..\PollyProject\PollyProject\PollyProject.csproj" />
   </ItemGroup>
 
 </Project>

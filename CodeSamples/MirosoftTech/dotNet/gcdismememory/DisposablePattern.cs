@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace gcdismememory
 {
-    class Program: IDisposable
+    class DisposablePattern: IDisposable
     {
         static void Main(string[] args)
         {

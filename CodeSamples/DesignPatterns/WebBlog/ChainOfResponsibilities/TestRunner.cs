@@ -18,8 +18,8 @@ namespace WebBlog.ChainOfResponsibilities
             var ticket3 = new Ticket { Severity = Severity.High };
 
             level1SupportHandler.HandleType(ticket1);
-            level1SupportHandler.HandleType(ticket2);
-            level1SupportHandler.HandleType(ticket3);
+           // level1SupportHandler.HandleType(ticket2);
+            // level1SupportHandler.HandleType(ticket3);
         }
     }
 }

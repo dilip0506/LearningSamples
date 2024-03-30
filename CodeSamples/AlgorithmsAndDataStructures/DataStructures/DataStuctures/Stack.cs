@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DataStuctures
+﻿namespace DataStuctures
 {
     internal class StackNode<T>
     {

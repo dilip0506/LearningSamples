@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using MultiThreading.RestUsingTask;
+using MultiThreading.TaskDemo;
 
-await TaskLibraryIterative.Run();
+await TaskDemoUsing.Run();
