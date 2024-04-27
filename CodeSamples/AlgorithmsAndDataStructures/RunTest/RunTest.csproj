@@ -11,8 +11,8 @@
     <ProjectReference Include="..\CrackingTheCodingInterview\ChapterFour\ChapterFour.csproj" />
     <ProjectReference Include="..\CrackingTheCodingInterview\ChapterOne\ChapterOne.csproj" />
     <ProjectReference Include="..\CrackingTheCodingInterview\ChapterThree\ChapterThree.csproj" />
-    <ProjectReference Include="..\CrackingTheCodingInterview\ChapterTwo\ChapterTwo.csproj" />
     <ProjectReference Include="..\CrackingTheCodingInterview\Introduction\Introduction.csproj" />
+    <ProjectReference Include="..\DataStructures\DataStuctures.csproj" />
     <ProjectReference Include="..\LeetCodeCom\ProblemSet\ProblemSet.csproj" />
     <ProjectReference Include="..\LeetCodeCom\Recursion\Recursion.csproj" />
   </ItemGroup>
