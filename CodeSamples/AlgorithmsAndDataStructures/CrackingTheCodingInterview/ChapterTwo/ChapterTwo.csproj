@@ -6,8 +6,4 @@
     <ApplicationIcon />
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\DataStructures\DataStuctures\DataStuctures.csproj" />
-  </ItemGroup>
-
 </Project>
