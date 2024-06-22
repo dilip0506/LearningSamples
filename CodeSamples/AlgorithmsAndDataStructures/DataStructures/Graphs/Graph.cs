@@ -1,5 +1,3 @@
-using System;
-
 namespace DataStuctures.Graphs
 {
     public class Graph
@@ -15,7 +13,6 @@ namespace DataStuctures.Graphs
             var graph = new Graph();
             graph.AddEdge(0,2);
             Console.WriteLine("HI");
-        }
-        
+        } 
     }
 }
