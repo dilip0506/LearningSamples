@@ -3,7 +3,7 @@ using System;
 
 namespace ChapterTwo
 {
-    partial class LinkedList
+    public class LinkedList3 : LinkedList
     {
         public Node MiddleNode()
         {
@@ -25,9 +25,9 @@ namespace ChapterTwo
             return null;
         }
     }
-    class Two3
+    class Two3 
     {
-        LinkedList ll = new LinkedList();
+        LinkedList3 ll = new LinkedList3();
         public Two3()
         {
             ll.AddEnd(6);

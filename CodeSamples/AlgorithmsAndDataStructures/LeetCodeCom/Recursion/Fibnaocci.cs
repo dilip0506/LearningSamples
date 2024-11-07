@@ -10,5 +10,10 @@ namespace Recursion
                 return F(n - 1) + F(n-2);
             }
         }
+
+        public static void Run(){
+            var F = new Fibnocci().F(100);
+            Console.Write(F);
+        }
     }
 }

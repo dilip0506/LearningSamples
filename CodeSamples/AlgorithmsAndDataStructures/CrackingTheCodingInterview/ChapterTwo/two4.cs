@@ -1,6 +1,8 @@
-﻿namespace ChapterTwo
+﻿using DataStuctures;
+
+namespace ChapterTwo
 {
-    partial class LinkedList
+    partial class LinkedList4 : LinkedList
     {
         //my way
         public void Partition(int k)

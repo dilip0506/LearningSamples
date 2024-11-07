@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataStuctures;
+using System;
 
 namespace ChapterTwo
 {
@@ -30,7 +31,7 @@ namespace ChapterTwo
             //}
             //ll.Partition2(5);
             //ll.Print();
-            Console.WriteLine(ll.IsCircular());
+            //Console.WriteLine(ll.IsCircular());
             Console.Read();
         }
     }

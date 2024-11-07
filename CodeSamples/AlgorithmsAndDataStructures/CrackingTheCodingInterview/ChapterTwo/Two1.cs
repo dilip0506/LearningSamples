@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace ChapterTwo
 {
-    public partial class LinkedList
+    public class LinkedList1 : LinkedList
     {
         public void DeleteDuplicate()
         {//two1

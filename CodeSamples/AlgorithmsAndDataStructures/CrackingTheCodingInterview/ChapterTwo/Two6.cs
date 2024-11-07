@@ -1,6 +1,8 @@
-﻿namespace ChapterTwo
+﻿using DataStuctures;
+
+namespace ChapterTwo
 {
-    partial class LinkedList
+    public class LinkedList6 : LinkedList
     {
         public void Reverse()
         {

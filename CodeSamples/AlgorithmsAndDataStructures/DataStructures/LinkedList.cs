@@ -9,8 +9,8 @@ namespace DataStuctures
     }
     public class Node
     {
-        internal Node next;
-        internal int data;
+        public Node next;
+        public int data;
         public Node(int i)
         {
             data = i;
@@ -53,9 +53,9 @@ namespace DataStuctures
         }
     }
     //create new wrapper class for node to manage the head and other issues (because some operation may point to old ref these will keep the head updated)
-    public partial class LinkedList
+    public class LinkedList
     {
-        Node head;
+        protected internal Node head;
         public LinkedList()
         {
             head = null;

@@ -1,11 +1,14 @@
-﻿namespace ChapterTwo
+﻿using DataStuctures;
+
+namespace ChapterTwo
 {
-    internal partial class LinkedList
+    public class LinkedList8 : LinkedList
     {
 
         private void CreateCircularLinkedList()
         {
-            var node = this.GetLengthAndTail();
+            var ll = new LinkedList7();
+            var node = ll.GetLengthAndTail();
             node.Tail.next = this.head;
         }
         public bool IsCircular()

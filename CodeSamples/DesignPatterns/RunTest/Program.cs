@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using WebBlog.ChainOfResponsibilities;
+using WebBlog.Composite;
 
 TestRunner.Run();
 

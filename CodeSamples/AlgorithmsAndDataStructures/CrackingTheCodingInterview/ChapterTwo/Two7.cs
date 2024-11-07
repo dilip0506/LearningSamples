@@ -3,16 +3,16 @@ using System;
 
 namespace ChapterTwo
 {
-    public partial class LinkedList
+    public class LinkedList7 : LinkedList
     {
 
-        private class TailAndSize
+        internal class TailAndSize
         {
             public int Size { get; set; }
             public Node Tail { get; set; }
         }
 
-        private TailAndSize GetLengthAndTail()
+        internal TailAndSize GetLengthAndTail()
         {
             int count = 0;
             Node n = head;
@@ -35,7 +35,7 @@ namespace ChapterTwo
             return node;
         }
 
-        public Node FindIntersection(LinkedList linkedList)
+        public Node FindIntersection(LinkedList7 linkedList)
         {
             linkedList.head.next.next = this.head.next;
             var firstLinkedList = this.GetLengthAndTail();

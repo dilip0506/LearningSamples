@@ -269,7 +269,7 @@ ex sites: whatismyaddress.com, checkdnsleaks
 if anything goes worng restart tor (service tor status/start/stop/restart cmd with diffrent options)
 
 3)VPN
-before setting up or using VPH configure dhclient.config to use opendns server
+before setting up or using VPN configure dhclient.config to use opendns server
 we can be identified by the DNS server server used by our local ISP DNS server. so use a different DNS server of other location
 edit vim /etc/dhcp/dhclient.conf
 go to line prepend DNS Name servers and add other ipaddress and restart network-manager service(cmd : service network-manager restart)
