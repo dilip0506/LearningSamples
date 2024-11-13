@@ -1,2 +1,2 @@
-﻿using DataStuctures.Graphs;
-Graph.Run();
+﻿using ProblemSet.DynamicProgramming;
+Test.Run();
