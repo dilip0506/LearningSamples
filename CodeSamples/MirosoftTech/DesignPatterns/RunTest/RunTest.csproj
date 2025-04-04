@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HeadFirst\Command\HeadFirst.Command.csproj" />
+    <ProjectReference Include="..\HeadFirst\Composite\HeadFirst.Composite.csproj" />
+    <ProjectReference Include="..\HeadFirst\Decorator\HeadFirst.Decorator.csproj" />
+    <ProjectReference Include="..\HeadFirst\Factory\HeadFirst.Factory.csproj" />
+    <ProjectReference Include="..\HeadFirst\Observer\HeadFirst.Observer.csproj" />
+    <ProjectReference Include="..\HeadFirst\Singleton\HeadFirst.Singleton.csproj" />
+    <ProjectReference Include="..\HeadFirst\State\HeadFirst.State.csproj" />
+    <ProjectReference Include="..\HeadFirst\Strategy\HeadFirst.Strategy.csproj" />
+    <ProjectReference Include="..\Udemy\Builder\Udemy.Builder.csproj" />
+    <ProjectReference Include="..\Udemy\Solid\Udemy.Solid.csproj" />
+    <ProjectReference Include="..\WebBlog\ChainOfResponsibilities\WebBlog.ChainOfResponsibilities.csproj" />
+    <ProjectReference Include="..\WebBlog\Composite\WebBlog.Composite.csproj" />
+    <ProjectReference Include="..\WebBlog\GaurdClaues\WebBlog.GaurdClaues.csproj" />
+    <ProjectReference Include="..\WebBlog\Mediator\WebBlog.Mediator.csproj" />
+    <ProjectReference Include="..\WebBlog\Specifications\WebBlog.Specifications.csproj" />
+  </ItemGroup>
+
+</Project>

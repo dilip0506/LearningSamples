@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Algorithms\SearchAlgorithms\SearchAlgorithms.csproj" />
+    <ProjectReference Include="..\CrackingTheCodingInterview\ChapterFour\ChapterFour.csproj" />
+    <ProjectReference Include="..\CrackingTheCodingInterview\ChapterOne\ChapterOne.csproj" />
+    <ProjectReference Include="..\CrackingTheCodingInterview\ChapterThree\ChapterThree.csproj" />
+    <ProjectReference Include="..\CrackingTheCodingInterview\ChapterTwo\ChapterTwo.csproj" />
+    <ProjectReference Include="..\CrackingTheCodingInterview\Introduction\Introduction.csproj" />
+    <ProjectReference Include="..\DataStructures\DataStuctures.csproj" />
+  </ItemGroup>
+</Project>

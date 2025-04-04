@@ -1,0 +1,5 @@
+Good:Buenas
+afternoon:tardes
+Hello:Hola
+name:llamo
+sahana:M
