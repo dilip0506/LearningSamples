@@ -1,4 +1,5 @@
-from model import *
+from modelLogic import *
+from processData import pd
 
 #Make it verbose so we can see the progress
 VERBOSE=1
