@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -23,6 +23,7 @@
     <ProjectReference Include="..\WebBlog\GaurdClaues\WebBlog.GaurdClaues.csproj" />
     <ProjectReference Include="..\WebBlog\Mediator\WebBlog.Mediator.csproj" />
     <ProjectReference Include="..\WebBlog\Specifications\WebBlog.Specifications.csproj" />
+    <ProjectReference Include="..\WebBlog\WebBlog.Delegate\WebBlog.Delegate.csproj" />
   </ItemGroup>
 
 </Project>

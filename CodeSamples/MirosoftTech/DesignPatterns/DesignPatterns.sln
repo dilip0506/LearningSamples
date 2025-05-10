@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebBlog.ChangeHistoryBuilde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBlog.Dapper.UnitOfWork", "WebBlog\WebBlog.Dapper.UnitOffWork\WebBlog.Dapper.UnitOfWork.csproj", "{A47BB4FB-D64C-4F33-AEFC-3B08FEAB9AD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBlog.Delegate", "WebBlog\WebBlog.Delegate\WebBlog.Delegate.csproj", "{47AED889-1F8C-D7A3-F5E7-B017845238E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{A47BB4FB-D64C-4F33-AEFC-3B08FEAB9AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A47BB4FB-D64C-4F33-AEFC-3B08FEAB9AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A47BB4FB-D64C-4F33-AEFC-3B08FEAB9AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AED889-1F8C-D7A3-F5E7-B017845238E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AED889-1F8C-D7A3-F5E7-B017845238E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AED889-1F8C-D7A3-F5E7-B017845238E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AED889-1F8C-D7A3-F5E7-B017845238E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +151,7 @@ Global
 		{63658E69-3478-4A53-81CA-AC7239B2AF8B} = {06503220-97F4-4D8C-BA9E-62E7C866F93D}
 		{24BCFB9F-95B6-48BD-9034-D998081BA392} = {06503220-97F4-4D8C-BA9E-62E7C866F93D}
 		{A47BB4FB-D64C-4F33-AEFC-3B08FEAB9AD2} = {06503220-97F4-4D8C-BA9E-62E7C866F93D}
+		{47AED889-1F8C-D7A3-F5E7-B017845238E6} = {06503220-97F4-4D8C-BA9E-62E7C866F93D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64BFDCB4-6080-4612-8896-74A85481BD0B}
